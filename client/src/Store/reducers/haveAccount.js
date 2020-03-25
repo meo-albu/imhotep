@@ -1,4 +1,4 @@
-const haveAccount = (state = false, action) => {
+const haveAccount = (state = true, action) => {
   switch(action.type) {
     case 'LOGIN':
       return state = true;
