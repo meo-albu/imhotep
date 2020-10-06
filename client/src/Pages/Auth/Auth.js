@@ -11,6 +11,7 @@ const Auth = () => {
     <div>
       <AuthDiv>
         <div></div>
+        <div>hi</div>
         <>
           {haveAccount ? <Login /> : <Register />}
         </>
